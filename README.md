@@ -1,41 +1,60 @@
-# AI Resume Builder
+# 🚀 AI Resume Builder (ATS-Friendly)
 
-An AI-powered web application that helps students create ATS-friendly resumes and get an ATS score.
-
----
-
-## 📌 Objective
-
-The goal of this project is to help students generate professional resumes that are optimized for Applicant Tracking Systems (ATS) and improve their chances of getting shortlisted.
+An AI-powered web application that helps students generate professional, ATS-optimized resumes with real-time scoring and feedback.
 
 ---
 
-## 🚀 Features
+## 📦 Project Overview
 
-- User-friendly input form
-- Generates structured, ATS-friendly resumes
-- Aligns resume with job role and job description
-- Provides ATS score (0–100) with explanation
-- Download resume in PDF/DOCX format (Planned)
-- Simple and clean interface
+This project is designed to assist students in creating resumes that are compatible with Applicant Tracking Systems (ATS).  
+It collects user information, generates structured resumes, evaluates them against job descriptions, and provides an ATS score with explanation.
 
----
+### Key Highlights
 
-## 🛠️ Tech Stack
+🔹 Purpose  
+To improve students' chances of getting shortlisted by creating optimized resumes.
 
-- Python
-- Streamlit
-- OpenAI API (for AI resume generation)
-- Git & GitHub
+🔹 Features  
+- User-friendly resume input form  
+- ATS-friendly resume generation  
+- Automatic keyword extraction  
+- Resume and Job Description matching  
+- ATS score (0–100) with explanation  
+- Clean and simple interface  
 
----
+🔹 Technology Stack  
+- Python  
+- Streamlit  
+- Regex-based text processing  
+- Git & GitHub  
 
-## ⚙️ How It Works
+🔹 Working Mechanism  
+1. User enters personal and professional details  
+2. System analyzes skills and job description  
+3. Keywords are extracted automatically  
+4. ATS score is calculated  
+5. Resume is generated in standard format  
 
-1. User enters personal and professional details
-2. System processes the input using AI
-3. Resume is generated in ATS-friendly format
-4. ATS score is calculated based on keywords and skills
-5. User can download the resume
+🔹 ATS Scoring Criteria  
 
----
+| Parameter     | Weight |
+|---------------|---------|
+| Skill Match   | 40%     |
+| Keyword Match | 30%     |
+| Role Match    | 20%     |
+| Format Check  | 10%     |
+
+🔹 Installation & Execution  
+
+```bash
+git clone https://github.com/mittalshriya/AI-Resume-Builder.git
+cd AI-Resume-Builder
+pip install streamlit openai python-docx reportlab
+streamlit run app.py
+🔹 Learning Outcomes
+
+Python application development
+Resume optimization logic
+ATS analysis techniques
+GitHub project management
+System design fundamentals
