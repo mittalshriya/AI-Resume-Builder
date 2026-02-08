@@ -39,11 +39,3 @@ The goal of this project is to help students generate professional resumes that 
 5. User can download the resume
 
 ---
-
-## ▶️ How to Run the Project
-
-Follow these steps to run the project locally:
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/mittalshriya/AI-Resume-Builder.git
