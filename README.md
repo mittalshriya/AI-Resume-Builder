@@ -51,7 +51,8 @@ git clone https://github.com/mittalshriya/AI-Resume-Builder.git
 cd AI-Resume-Builder
 pip install streamlit openai python-docx reportlab
 streamlit run app.py
-🔹 Learning Outcomes
+
+### Learning Outcomes
 
 Python application development
 Resume optimization logic
